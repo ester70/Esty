@@ -144,7 +144,9 @@ CREATE TABLE Order_satisfaction
         ON DELETE CASCADE  
 ) 
 ENGINE = innoDB DEFAULT CHARSET = utf8  
-COLLATE = utf8_unicode_ci;demo
+COLLATE = utf8_unicode_ci;
+
+--Qweries
 -- Available rooms query
 SELECT 
     valid_rooms_availabe.num_rooms
